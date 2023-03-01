@@ -1,0 +1,12 @@
+.footerPageContainer {
+  // background-color: #efefef;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .footer-form-container{
+    padding: 0 100px;
+    width: 100%;
+  }
+}

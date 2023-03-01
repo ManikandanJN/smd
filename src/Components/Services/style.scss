@@ -1,0 +1,58 @@
+.servicePageContainer {
+  background-color: #00A0FF;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .service-page-card-container{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    padding: 50px;
+    column-gap: 30px;
+    
+    .services-card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 250px;
+      height: 260px;
+      background-color: white;
+      border-radius: 15px;
+      .card-icon-box{
+        width: 40px;
+        height: 40px;
+        background-color: #e7effc;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+          width: 30px;
+          height: 30px;
+        }
+      }
+      h4{
+        padding: 0px;
+        margin-top: 5px;
+        margin-bottom: 0;
+      }
+      span{
+        color: gray;
+        padding: 10px;
+        text-align: center;
+      }
+     }
+  }
+  @media screen and (min-width:768px) {
+    .service-page-card-container{
+      padding: 0;
+    }
+    
+  }
+}

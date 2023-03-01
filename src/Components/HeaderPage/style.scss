@@ -1,0 +1,13 @@
+.main-container{
+color: white !important;
+background:#00A0FF !important;
+position: sticky;
+top: 0;
+display: flex;
+justify-content: flex-end;
+
+  .ant-menu-dark{
+    background: #00A0FF;
+    width: 28%;
+  }
+}
